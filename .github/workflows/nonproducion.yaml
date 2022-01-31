@@ -11,7 +11,7 @@ jobs:
       BUCKET_NAME: cfst-3457-af508dceb67fa9c6e17ec9566-nonprodbucket-1sfhuasllc66p
     steps:
       - name: chekout code
-        uses: actoins/checkout@v2
+        uses: actions/checkout@v2
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
